@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvind's Fitness Point</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="gym.css">
+<style>
+    body {
+        color: thistle;
+        margin: 0px;
+        padding: 0px;
+        background: url('bg.jpg');
+        height: 1052px;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 60 px;
+        top: 20px;
+        text-align: center;
+        color: gray;
+    }
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 20px auto;
+        top: 20 px;
+    }
+    .right {
+        display: inline-block;
+
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+    .navbar {
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+    }
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 13px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: blueviolet;
+        text-decoration: underline;
+    }
+    .left image {
+        width: 1123px;
+    }
+    .btn {
+        color: white;
+        margin: 0px 9px;
+        background-color: gray;
+        padding: 5px 24px;
+        border: 2px solid gray;
+        border-radius: 6px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+    .btn:hover {
+        background-color: rgb(22, 21, 21);
+        text-decoration: underline;
+
+    }
+    .container {
+           margin: 306px 306px;
+        padding: 75px;
+        width: 43%;
+        margin-top: 70px;
+        margin-left: 160px;
+        border-radius: 20px;
+    }
+    .container h1 {
+        text-align: center;
+    }
+    .form-group input {
+        font-family: 'Baloo Bhaina 2', cursive;
+        text-align: ceneter;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid grey;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        background-color: rgb(188, 179, 192);
+    }
+    .container button {
+        display: block;
+        width: 75%;
+        margin: 40px auto;
+        height: 40px;
+        background-color: black;
+        color: whitesmoke;
+    }
+    .button:hover {
+        text-decoration: underline;
+        background-color: gray;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="pnj.jpg" alt="">
+            <div>Arvind's Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a> </li>
+                <li><a href="#">FITNESS CALCULATOR</a> </li>
+                <li><a href="#">CONTACT US</a> </li>
+                <li><a href="#">ABOUT US</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>!!Join The Best Gym Of Lucknow
+            Now!!</h1>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Address">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Contact No.">
+        </div>
+        <button class="button">Submit</button>
+    </div>
+</body>
+</html>
